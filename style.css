@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    margin: 50px 50px 0 50px;
+    background-color:#f0f4f8;
+    color:#1e1e1e;
+    font-family: 'Poppins';
+}
+.logo{
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.main{
+    flex: 1;
+}
+.box{
+    width: 45%;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #90e1ef65;
+}
+span{
+    color:grey;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.pic{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+}
+footer{
+    text-align: right;
+}
+h1{
+    font-size: 4rem;
+}
+@media (max-width:680px){
+
+h1{
+        font-size: 2.5rem;
+        text-align: center;
+}
+body{
+    margin: 20px;
+    height: auto;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+}
+footer{
+    text-align: center;
+    font-size: 0.9rem;
+}
+    
+}
